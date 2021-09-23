@@ -1,0 +1,168 @@
+
+body {
+  font-family: 'DM Serif Display', serif;
+  font-size: 16px;
+}
+
+/* Navigation bar */
+.navbar-nav {
+  padding-left: 60%;
+}
+
+.navbar-brand {
+  padding-left: 100px;
+}
+
+.nav-item {
+  padding-left: 10px;
+}
+
+/* header section */
+.top-img {
+  position: absolute;
+  left: 900px;
+}
+
+.bottom-img {
+  position: absolute;
+  right: 600px;
+  top: 400px;
+}
+
+hr {
+  width: 20%;
+
+}
+
+.intro-img {
+  position: relative;
+  width: 50%;
+  height: auto;
+  top: 200px;
+}
+
+.humanizing {
+  background-color: hsl(256, 26%, 20%);
+}
+
+.intro-text {
+  color: white;
+  padding: 8%;
+}
+
+/* second section */
+.second-section {
+  padding: 15% 7% 2%;
+}
+
+.line {
+  width: 10%;
+}
+
+.heading {
+  padding-bottom: 5%;
+}
+
+.round-img {
+  padding-bottom: 7%;
+}
+
+/* third section */
+.third-section {
+  padding: 5%;
+  background-color:  hsl(256, 26%, 20%);
+  color: white;
+  position: relative;
+  left: 7%;
+  width: 90%;
+}
+
+.third-text {
+  margin-right: 400px;
+  text-align: left;
+}
+
+.right-img {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 15%;
+  height: auto;
+}
+
+/* last section */
+.final {
+  margin-top: 2%;
+  padding: 5%;
+  background-color: #EFEFEF;
+  font-size: 13px;
+  background-image: url("images/bg-pattern-intro-left-desktop.svg");
+  background-repeat: no-repeat;
+}
+
+.social-icons {
+  padding-right: 20px;
+}
+
+.title {
+  color: #787A91;
+}
+
+.content {
+  padding-top: 10px;
+}
+
+
+
+@media (max-width:600px) {
+
+  .navbar-nav {
+    padding-left: 0;
+  }
+
+  .humanizing {
+    padding-right: 0;
+  }
+
+  .top-img {
+    left: 300px;
+  }
+
+  .intro-img {
+    width: 100%;
+    top: 0;
+  }
+
+  .second-section {
+    text-align: center;
+  }
+
+  .line {
+    position: relative;
+    left: 150px;
+    width: 20%;
+  }
+
+  .third-text {
+    margin-right: 0;
+    text-align: center;
+  }
+
+  .work-btn {
+    position: relative;
+    left: 120px;
+  }
+
+  .final {
+    text-align: center;
+  }
+
+  .insure {
+    padding: 2%;
+  }
+
+  .icons {
+    padding: 3%;
+  }
+
+}
